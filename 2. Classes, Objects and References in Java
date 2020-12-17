@@ -1,0 +1,43 @@
+1. Object-Oriented Programming (OOP) in Java
+- In Java, everything is an object. Each object belongs to one type.
+- For each object, what state does the object maintain? --> field/variable
+  (eg. if a class is a house, the states describe the number/color/... of the doors, windows, ...)
+- For each object, what behaviors does the object do?   --> method/function
+
+2. Class
+- A class is a blueprint that describes basic components of a given type.
+
+3. Object
+- An object is the instantiation of a class. 
+
+4. Reference
+- A reference is an object's address.
+- Dereference: is the process of looking for given object using its reference.
+
+5. Primitive types in Java (8)
+- boolean
+- byte
+- char
+- short
+- int
+- long
+- double
+- float
+- The above eight primitive types are directly stored in memory without any reference.
+
+6. Mmory layout: call-stack and heap.
+- call-stack: is a stack data structure that stores the information about the activities of a computer program.
+- stack-frame: is a frame of data that gets pushed onto the stack. In the case of a call stack, a stack frame
+  represents a function call and its argument data[1].
+- heap: a heap is created when the JVM starts up. The size of a heap is dynamically changed which applications run.
+- Java objects are stored in heap.
+
+7. Objects in Java
+- "new" (instantiation): means to create a new object which is stored in heap.
+- Create an object: declaration --> instantiation --> initialization
+  objectType objectName = new constructorName(...);
+- "new" is a Java operator to create the object in the memory and then return its reference to "objectName".
+  "new" is followed by a constructorName (which is the same as the name of this class).
+  
+  
+  [1] https://en.wikipedia.org
