@@ -1,0 +1,11 @@
+1. Software Development Kit (SDK) is a collection of software development tools in one installable package.
+   SDK facilitates the creation of applications by having compilers, debuggers and perhaps a software framework[1].
+2. Integrated Development Environment (IDE) is a software application that provides comprehensive facilities to
+   computer programmer for software development. An IDE commonly consists of at least a source code editor, build
+   automation tools and a debugger[1].
+3. IDEs used for Java programming: eclipse, IntelliJ IDEA, or Netbeans.
+4. Java Development Kit (JDK): is an implementation of either one of the Java Platform, Standard Edition, Java Platform,
+   Enterprise Edition, or Java platform, Micro Editio paltforms released by Oracle Corporation in the form of a binary
+   product aimed at Java developers on Solaris, Linux, macOS or Windows[1].
+
+[1] https://en.wikipedia.org
