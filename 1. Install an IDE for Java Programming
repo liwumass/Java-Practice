@@ -7,5 +7,12 @@
 4. Java Development Kit (JDK): is an implementation of either one of the Java Platform, Standard Edition, Java Platform,
    Enterprise Edition, or Java platform, Micro Editio paltforms released by Oracle Corporation in the form of a binary
    product aimed at Java developers on Solaris, Linux, macOS or Windows[1].
+5. Java Programming: 
+   (1) create a project
+   (2) create a class
+   (3) write a main function
+   (4) run the code
+6. Google Java coding guide[2] 
 
 [1] https://en.wikipedia.org
+[2] https://google.github.io/styleguide/javaguide.html
