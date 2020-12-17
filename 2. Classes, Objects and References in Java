@@ -30,7 +30,7 @@
 - stack-frame: is a frame of data that gets pushed onto the stack. In the case of a call stack, a stack frame
   represents a function call and its argument data[1].
 - heap: a heap is created when the JVM starts up. The size of a heap is dynamically changed which applications run.
-- Java objects are stored in heap.
+- Java objects are stored in heap. The address of an object in the heap is a part of the reference.
 
 7. Objects in Java
 - "new" (instantiation): means to create a new object which is stored in heap.
