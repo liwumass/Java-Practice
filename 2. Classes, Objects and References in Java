@@ -71,6 +71,11 @@
  11. Null Pointers
  
  12. Access Modifiers
+ - An access modifier defines who can see what content.
+ - public: everyone can access.
+ - protected: only its children and the same package can access.
+ - default: only the same package can access.
+ - private: only itself can access (at the same class level, other objects in the same class can also access).
  
   
   
