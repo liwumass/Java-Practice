@@ -77,6 +77,15 @@
  - default: only the same package can access.
  - private: only itself can access (at the same class level, other objects in the same class can also access).
  
+ 13. Static
+ - members belong to a class instead of an object.
+ - members could be fields or methods.
+ 
+ 14. Final
+ 
+ 
+ 
+ 
   
   
   [1] https://en.wikipedia.org
