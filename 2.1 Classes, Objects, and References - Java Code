@@ -1,0 +1,63 @@
+package examples;
+public class Kid {
+  public int age;  // (member) field
+  private final String name;  // (constant) field
+  private static String school;  // (static) field
+  private static final String HELLO = "Hello";  // (static constant) field
+  
+  // constructor
+  public Kid(String name) {
+    this.name = name;
+  }
+  
+  // getter, accessor; (member) method
+  public int getAge() {
+    return age;
+  }
+  
+  // setter; (member) method
+  public void setAge(int age) {
+    this.age = age;
+  }
+  
+  // getter, accessor; (member) method
+  public String getName() {
+    return name;
+  }
+  
+  // setter; (member) method
+  public void setName(String name) {
+    this.name = name;
+  }
+  
+  // (member) method
+  public void sayHello() {
+    System.out.println(HELLO + "! I am " + name +". I am " + age + ".")
+  }
+  
+  // setter; (member) method
+  public static void setSchool(String school) {
+    this.school = school;
+  }
+}
+
+
+public class HelloWorld {
+  public static void main(String[] args) {
+    Kid.setSchool("");
+    Kid firstKid = new Kid("");
+    Kid secondKid = new Kid("");
+    Kid thirdKid = new Kid("");
+    firstKid.age = 7;
+    secondKid.age = 6;
+    thirdKid.age = 10;
+    secondKid.setAge(5);
+    thirdKid.setAge(12);
+    firstKid.sayHello();
+    try {
+      secondKid.sayHello();
+    } catch (NullPointerException exception) {
+      System.out.println("Exception Occurred: " + exception.toString());
+    }
+  }
+    
