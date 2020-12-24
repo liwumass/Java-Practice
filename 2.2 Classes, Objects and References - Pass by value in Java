@@ -1,0 +1,62 @@
+package examples;
+public class Simple {
+  public int value;
+  
+  // constructor
+  public Simple(int v) {
+    value = v;
+  }
+}
+
+public class changeTest {
+
+  // changeSimpleValue1
+  private static void changeSimpleValue1(Simple simple){  // changeSimpleValue1(5)
+    Simple newSimple = new Simple(10);                    // newSimple = 10;
+    simple = newSimple;                                   // simple = 10;
+  }
+  
+  // changeSimpleValue2
+  private static void changeSimpleValue2(Simple simple) {
+    simple.value = 10;
+  }
+  
+  // changeSimpleValue3
+  private static void changeSimpleValue3(Simple simple) {
+    Simple newSimple = new Simple(10);  //newSimple = 10;
+    return newSimple;
+  }
+  
+  private static void changeIntValue(int x) {
+    x = 10;
+  }
+    
+  public static void(String[] args) {
+    // changeTest one
+    Simple originalSimple = new Simple(5);  //originalSimple = 5
+    changeSimpleValue1(originalSimple);  //changeSimpleValue1(5)
+    System.out.println(originalSimple.value);  //originalSimple.value = 5;
+    
+    // changeTest two
+    Simple originalSimple = new Simple(5);  // originalSimple = 5;
+    changeSimpleValue2(originalSimple);  // changeSimpleValue2(5); change the value from 5 to 10.
+    System.out.println(originalSimple.value);  // originalSimple.value = 10
+    
+    // changeTest three
+    Simple originalSimple = new Simple(5);  // originalSimple = 5
+    originalSimple = changeSimpleValue3(originalSimple);  // originalSimple = changeSimpleValue3(5) = 10;
+    System.out.println(originalSimple.value);  // originalSimple.value = 10
+    
+    // changeTest 3.1
+    Simple originalSimple = new Simple(5);  // originalSimple = 5;
+    changeSimpleValue(originalSimple);  // changeSimpleValue(5) = 10;
+    System.out.println(originalSimple.vale);  //5
+    
+    // changeTest four
+    int x = 5;
+    changeIntValue(x);  // changeIntValue(5)
+    System.out.println(x);  // 5
+  }
+}
+    
+    
