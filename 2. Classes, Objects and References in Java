@@ -82,6 +82,16 @@
  - members could be fields or methods.
  
  14. Final
+ - constants. For a final member, once the value is assigned, cannot be changed.
+ - Final class: a class that cannot be derived.
+ - Final method: a method that cannot be overridden.
+ - Final variable: a variable that once assigned, cannot be assigned again.
+ 
+ 15. Pass by value (copy) in Java
+ - Java Parameter Passing: pass parameter's value when a function is called.
+ - Pass by value means copy in Java.
+ - For the primitive data type, pass by value means copy the value itself.
+ - For objects, pass by value means copy the reference of the object.
  
  
  
